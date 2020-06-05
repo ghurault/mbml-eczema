@@ -1,0 +1,6 @@
+Results/*
+.Rproj.user
+.Rhistory
+log.txt
+Plots/*
+Models/*.rds
