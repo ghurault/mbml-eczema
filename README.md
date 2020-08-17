@@ -1,7 +1,9 @@
 # Personalised prediction of daily eczema severity scores using a mechanistic machine learning model
 
-This repository contains the code written for the article by **Hurault et al., "Personalised prediction of daily eczema severity scores  using a mechanistic machine learning model"**.
+This repository contains the code written for the article by [**Hurault et al. (2020), "Personalised prediction of daily eczema severity scores  using a mechanistic machine learning model"**](https://doi.org/10.1111/cea.13717), published in Clinical & Experimental Allergy.
 The code is written in the R language for statistical computing and the models using the probabilistic programming language [Stan](https://mc-stan.org/).
+
+## File structure
 
 The `Models` folder contains:
 
@@ -29,3 +31,10 @@ Nonetheless, it is possible to generate fake data from the prior predictive dist
 We implement this, as well as prior predictive check and fake data check in [`prior_fake_check.R`](prior_fake_check.R).
 
 Finally, [`plots.R`](plots.R) is used to produce several plots present in the paper.
+
+## License
+
+This open source version of mbml-eczema is licensed under the GPLv3 license, which can be seen in the [LICENSE](LICENSE) file.
+
+A **closed source** version of mbml-eczema is also available without the restrictions of the GPLv3 license with a software usage agreement from Imperial College London.
+For more information, please contact [Vaibhav Sharma](mailto:v.sharma@imperial.ac.uk).
